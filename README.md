@@ -38,7 +38,7 @@ function ready (error, data) {
 
 **Part B: Look into the console data to determine the object names to be called**
 
-After looking into the console, you must find the variable name of the data array that contains the geography data. In this case, the object name is "features". The code below stores the objects into a variable and stores it onto the log.
+After looking into the console, you must find the variable name of the data array that contains the geography data. In this case, the object name is "features". The code below stores the objects into a variable and saves it onto the log.
 
 ``` js
 function ready (error, data) {
@@ -49,7 +49,7 @@ function ready (error, data) {
 }
 ```
 
-**Part C: Pause with the data and create a style guide for the different geographic objects**
+**Part C: Create a style guide for the different geographic objects that you will create**
 
 In this visualization, I am creating a black area object for each precinct. Since this is the default, there is no need to specify fill. However, on the hover mouse event, I want to make the area red. This can be done in the style section with the following technique:
 
@@ -106,7 +106,7 @@ var div = d3.select("body")
     .style("opacity", 0);
 ```
 
-Create a projection that maps latitude/longitude coordinates to the world. Note, there are many projections that can be used. The projection chosen is a good choice for maps smaller than mapping the full United States. Further reading can be found here:
+Create a projection that maps latitude/longitude coordinates to the world. Note, there are many projections that can be used. The projection chosen is a good choice for maps more granular than full United States. Further reading can be found here:
 https://github.com/d3/d3-3.x-api-reference/blob/master/Geo-Projections.md
 
 
