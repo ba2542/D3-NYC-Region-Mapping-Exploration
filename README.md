@@ -155,6 +155,6 @@ svg.append("path")
 Mapping with geoJSON is simple in concept, but difficult because information is not centralized. This guide demonstrates concepts I gathered that allowed me to successfully code an interactive map of NYC. The resources I used can be found below. However, if you have any questions about my findings, I am happy to help.
 
 ### Resources
-https://bl.ocks.org/mbostock/4090848
-https://github.com/d3/d3-3.x-api-reference/blob/master/Geo-Projections.md
-http://bl.ocks.org/d3noob/a22c42db65eb00d4e369
+- https://bl.ocks.org/mbostock/4090848
+- https://github.com/d3/d3-3.x-api-reference/blob/master/Geo-Projections.md
+- http://bl.ocks.org/d3noob/a22c42db65eb00d4e369
